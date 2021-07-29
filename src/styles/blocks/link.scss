@@ -1,0 +1,23 @@
+.link {
+    text-decoration: none;
+    color: $button-color;
+    transition: all .3s;
+    display: inline-block;
+    position: relative;
+    padding: 10px 0;
+    &:after {
+        content: '';
+        transition: all .3s;
+        width: 0;
+        position: absolute;
+        left: 50%;
+        bottom: 7px;
+    }
+    &:hover {
+        &:after {
+            width: 100%;
+            border-bottom: 1px solid;
+            left: 0;
+        }
+    }
+}

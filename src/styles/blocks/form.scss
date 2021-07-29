@@ -1,0 +1,42 @@
+.form {
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    padding: 30px 15px 13px;
+    @include desktop {
+        padding: 50px 50px 33px;
+    }
+    &__input {
+        outline: none;
+        border: 1px solid $second-color;
+        border-radius: 4px;
+        display: block;
+        width: 100%;
+        padding: 14px 25px;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: 21px;
+        &::placeholder {
+            color: $second-color;
+        }
+        &_invalid {
+            border-color: rgb(238, 125, 125);
+        }
+    }
+    &__label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    &__row {
+        margin-bottom: 17px;
+    }
+    &__title {
+        margin: 0 0 27px;
+    }
+    &__link {
+        color: #42B1BA;
+        text-decoration: none;
+    }
+    &__message {
+        color: rgb(238, 125, 125);
+    }
+}

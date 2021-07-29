@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFoundScreen should render correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <header
+      class="header"
+    >
+      <a
+        class="link"
+        href="/"
+      >
+        На главную
+      </a>
+    </header>
+    <h2>
+      Страница не найдена
+    </h2>
+  </div>
+</div>
+`;

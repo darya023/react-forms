@@ -1,0 +1,8 @@
+.footer {
+    text-align: center;
+    padding: 38px 16px 23px;
+    line-height: 24px;
+    @include desktop {
+        padding: 59px 0 46px;
+    }
+}

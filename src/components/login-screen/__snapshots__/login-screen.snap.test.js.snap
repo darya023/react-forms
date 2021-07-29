@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginScreen should render correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <header
+      class="header"
+    >
+      <a
+        class="link"
+        href="/"
+      >
+        На главную
+      </a>
+    </header>
+    <main>
+      <div
+        class="container__form"
+      >
+        <form
+          action="#"
+          class="form"
+        >
+          <h3
+            class="form__title"
+          >
+            Авторизация
+          </h3>
+          <div
+            class="form__fields"
+          >
+            <div
+              class="form__row"
+            >
+              <label
+                class="form__label"
+                for="email"
+              >
+                Почта
+              </label>
+              <input
+                class="form__input"
+                id="email"
+                name="email"
+                placeholder="example@mail.ru"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form__row"
+            >
+              <label
+                class="form__label"
+                for="password"
+              >
+                Пароль
+              </label>
+              <input
+                class="form__input"
+                id="password"
+                name="password"
+                placeholder="Пароль"
+                type="password"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="form__submit form__row"
+          >
+            <button
+              class="button"
+              type="submit"
+            >
+              Войти
+            </button>
+          </div>
+          <div
+            class="form__row"
+          >
+            <span>
+              Еще нет аккаунта? 
+            </span>
+            <a
+              class="link"
+              href="/signup"
+            >
+              Зарегистрироваться
+            </a>
+          </div>
+        </form>
+      </div>
+      <p>
+        Что-то пошло не так. Попробуйте позже.
+      </p>
+    </main>
+  </div>
+</div>
+`;

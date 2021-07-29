@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainScreen should render correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <header
+      class="header"
+    >
+      <a
+        class="link"
+        href="/"
+      >
+        На главную
+      </a>
+    </header>
+    <main>
+      <div>
+        <span>
+          Вы можете 
+        </span>
+        <a
+          class="link"
+          href="/login"
+        >
+           Войти 
+        </a>
+        <span>
+           или 
+        </span>
+        <a
+          class="link"
+          href="/signup"
+        >
+           Зарегистрироваться
+        </a>
+      </div>
+      Что-то пошло не так. Попробуйте позже.
+    </main>
+  </div>
+</div>
+`;

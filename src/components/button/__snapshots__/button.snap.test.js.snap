@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Button Button should render correctly 1`] = `
+<div>
+  <button
+    class="button"
+  >
+    Test
+  </button>
+</div>
+`;
+
+exports[`Tests for Button Button should render correctly if disabled 1`] = `
+<div>
+  <button
+    class="button"
+    disabled=""
+  >
+    Test
+  </button>
+</div>
+`;
+
+exports[`Tests for Button Button should render correctly with type submit 1`] = `
+<div>
+  <button
+    class="button"
+    type="submit"
+  >
+    Test
+  </button>
+</div>
+`;
